@@ -25,7 +25,9 @@ int main(){
     cout << A2 << "\n";
     cout << "Another way:\n";
     cout << char(1<<5) << "\n";//its space
+    //uppercase to lowercase
     cout << char('C' | ' ') << "\n";
+    //lowercase to uppercase
     printBinary('_');
     cout << char('c' & '_') << "\n";
 

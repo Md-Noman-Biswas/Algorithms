@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+
 int power(int base, int p, int m){
     //binary exponentiation
     int res = 1;

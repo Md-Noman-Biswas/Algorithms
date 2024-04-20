@@ -1,9 +1,11 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 const int M = 1e9+7;
+
+//b^-1 = binExp(b,m-2,m);
 int binExp(int a, int b, int m){
     int result = 1;
-    while(b>0){
+    while(b){
         if(b&1){
             result = (result * 1LL * a) % m;
         }
